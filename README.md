@@ -52,5 +52,5 @@ Implemented a custom container orchestrator engine that will:
 
 # Integration With Mobile App
   
- we have integrated our cloud backend with the mobile application.
+ We have integrated our cloud backend with the mobile application.
   This app will make POST requests to acts. You will be able to select the category and user in the UI.
