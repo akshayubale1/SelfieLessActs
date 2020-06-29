@@ -46,7 +46,7 @@ Implemented a custom container orchestrator engine that will:
 # Fault Tolerance
   For every 1 second interval, the orchestrator engine must poll the health check API of each running Acts container. If it     detects an unhealthy container, it must stop that container and start a new container (using the same Acts docker image).     The replacement container must listen on the same port that the unhealthy container was listening on.
   
-# Auto Scaloing
+# Auto Scaling
   The orchestrator must keep a track of the number of incoming HTTP requests in the past two minutes. 
   At every 2 minute interval, depending on how many requests were received, the orchestrator must increase or decrease the     number of Acts containers
 
