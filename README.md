@@ -1,5 +1,7 @@
 # SelfieLessActs
 
+A cloud computing project
+
 # Languages Used
 1) Python
 2) HTML
